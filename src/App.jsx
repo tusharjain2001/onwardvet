@@ -10,12 +10,14 @@ import dog from "./assets/dog.svg";
 import instagram from "./assets/instagram.png";
 import twitter from "./assets/twitter.png";
 import facebook from "./assets/facebook.png";
+import SoapNotesPreview from "./components/SoapNotesPreview";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <SoapNotesPreview />
       <Features />
       <LaunchBanner />
       <BookADemo />
