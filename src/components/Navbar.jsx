@@ -1,15 +1,24 @@
-import React from "react";
 import logo from "../assets/logo.svg";
 
 const Navbar = () => {
   return (
-    <div className="py-4 px-2 sm:px-20 border-[#00000033] border-b flex items-center justify-between">
-      <div>
-        <img src={logo} />
+    <header className="w-full">
+      {/* TOP ORANGE STRIP */}
+      <div className="w-full bg-[#F86446] text-white text-center text-xs sm:text-sm py-2 px-2">
+        Modern Veterinary Software | Built-In AI | <br className="block sm:hidden" /> Runs Your Entire Clinic | Easy To Use
       </div>
-      
-      <div className="bg-[#F86446] py-4 px-6 rounded-[70px] text-nowrap text-white font-medium text-[16px]">Book A Demo</div>
-    </div>
+
+      {/* MAIN NAVBAR */}
+      <div className="flex items-center justify-between px-4 sm:px-20 py-4 border-b border-[#00000033] bg-white">
+        {/* LOGO */}
+        <img src={logo} alt="Onward Vet Logo" className="h-8 sm:h-9" />
+
+        {/* CTA BUTTON */}
+        <button className="bg-[#F86446] text-white px-5 sm:px-7 py-2.5 rounded-full text-sm sm:text-base font-medium whitespace-nowrap hover:opacity-90 transition">
+          Book A Demo
+        </button>
+      </div>
+    </header>
   );
 };
 

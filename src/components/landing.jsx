@@ -8,12 +8,12 @@ const Hero = () => {
         
         {/* LEFT CONTENT */}
         <div className="font-samsung text-left lg:text-left">
-          <h1 className="text-4xl sm:text-5xl font-bold leading-tight text-gray-900">
-            Finish Your Notes <br className="hidden sm:block" />
+          <h1 className="text-4xl sm:text-7xl text-nowrap font-bold leading-tight text-[#3F3F3F]">
+            Finish Your Notes <br className="block" />
             Before You Leave.
           </h1>
 
-          <p className="mt-4 inter-500 text-[#00000099] max-w-xl mx-auto lg:mx-0">
+          <p className="mt-4 inter-500 text-[#00000099] font-medium sm:text-xl max-w-90 sm:max-w-130  lg:mx-0">
             Speak naturally. Onward Vet’s built-in AI drafts a clean,
             structured SOAP note in seconds — directly inside your
             system. Always editable. Always under your control.
