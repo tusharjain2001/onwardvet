@@ -1,6 +1,6 @@
 const FeatureCard = ({ title, points, image, reverse }) => {
 	return (
-		<div className="w-full font-samsung bg-[#F8F8F8] rounded-2xl shadow-[0px_4px_4px_0px_#00000040] p-5 sm:p-12">
+		<div className="w-full font-samsung bg-[#F8F8F8] rounded-2xl shadow-[0px_4px_4px_0px_#00000040] p-5  sm:p-12">
 			<div
 				className={`flex flex-col md:flex-row items-stretch gap-6 md:gap-10 ${
 					reverse ? "md:flex-row-reverse" : ""
@@ -22,7 +22,7 @@ const FeatureCard = ({ title, points, image, reverse }) => {
 				</div>
 
 				{/* Content */}
-				<div className="w-full md:w-1/2 flex flex-col justify-center">
+				<div className="w-full md:w-1/2 flex flex-col  sm:pb-20 justify-center">
 					<h2 className="text-3xl sm:text-5xl text-[#3F3F3F] font-bold leading-tight mb-6 md:mb-10">
 						{title}
 					</h2>
