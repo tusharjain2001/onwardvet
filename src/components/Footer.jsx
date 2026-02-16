@@ -79,7 +79,7 @@ export default function Footer({
 
 								{/* YouTube */}
 								<a
-									href="https://youtube.com"
+									href="https://youtube.com/@onwardvet6908?si=oB9SRgh-s6KNT6oB"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="h-12 w-12 flex items-center justify-center rounded-full border border-gray-300 hover:bg-gray-100 transition"
