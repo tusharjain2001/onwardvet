@@ -17,7 +17,7 @@ const BookADemo = () => {
       {/* Left */}
       <div className="flex flex-col flex-1 mt-0 sm:mt-15 sm:items-center items-start sm:text-center md:text-left">
         <h1 className="font-bold text-4xl sm:text-5xl lg:text-6xl text-[#3F3F3F] font-samsung w-full max-w-[28rem]">
-          Book A Demo
+          Book a Demo
         </h1>
 
         <p className="mt-3 text-[#00000099] inter-400 text-base sm:text-lg w-full max-w-[28rem]">

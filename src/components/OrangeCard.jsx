@@ -36,7 +36,7 @@ const OrangeCard = () => {
               }}
               className="bg-white w-fit text-[#F86446] font-bold px-6 py-3 rounded-full shadow-md cursor-pointer"
             >
-              Book a demo
+              Book a Demo
             </button>
           </div>
         </div>

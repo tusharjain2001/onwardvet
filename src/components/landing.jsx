@@ -43,7 +43,7 @@ const Hero = () => {
                 }}
                 className="rounded-full bg-[#F86446] px-6 py-3 text-white font-bold text-sm sm:text-base transition cursor-pointer"
               >
-                Book A Demo
+                Book a Demo
               </button>
 
               <img src={capterraImg} alt="Capterra rating" className="h-10" />

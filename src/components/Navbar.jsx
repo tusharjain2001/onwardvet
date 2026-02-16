@@ -28,7 +28,7 @@ const Navbar = () => {
           }}
           className="bg-[#F86446] text-white px-5 sm:px-7 py-2.5 rounded-full text-sm sm:text-base font-medium whitespace-nowrap hover:opacity-90 transition cursor-pointer"
         >
-          Book A Demo
+          Book a Demo
         </button>
       </div>
     </header>
