@@ -9,7 +9,7 @@ import logo from "./assets/logo.svg";
 import dog from "./assets/dog.svg";
 import instagram from "./assets/instagram.png";
 import twitter from "./assets/twitter.png";
-import facebook from "./assets/facebook.png";
+
 import SoapNotesPreview from "./components/SoapNotesPreview";
 import OrangeCard from "./components/OrangeCard";
 
@@ -28,7 +28,7 @@ function App() {
         dogSrc={dog}
         igIconSrc={instagram}
         xIconSrc={twitter}
-        fbIconSrc={facebook}
+        
       />
     </div>
   );
