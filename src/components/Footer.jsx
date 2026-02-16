@@ -5,7 +5,7 @@ export default function Footer({
   dogSrc,
   igIconSrc,
   xIconSrc,
-  
+
   year = new Date().getFullYear(),
 }) {
   return (
@@ -17,19 +17,53 @@ export default function Footer({
           <div className="grid min-h-[320px] items-center gap-10 md:grid-cols-[1fr_auto_1fr] md:min-h-[420px]">
             {/* LEFT */}
             <div className="flex flex-col items-start border-b-2 border-[#DEDEDE] sm:border-0 pb-4">
-              <img
-                src={logoSrc}
-                alt="OnwardVet"
-                className="h-14 w-auto md:h-16"
-              />
+              <a
+                href="https://onwardvet.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={logoSrc}
+                  alt="OnwardVet"
+                  className="h-14 w-auto md:h-16"
+                />
+              </a>
 
               <div className="mt-8 flex items-center gap-5">
-                <img src={igIconSrc} alt="Instagram" className="h-7 w-7" />
-                <img src={xIconSrc} alt="Twitter" className="h-7 w-7" />
-                
+                {/* LinkedIn */}
+                <a
+                  href="https://www.linkedin.com/company/onward-vet/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={igIconSrc}
+                    alt="LinkedIn"
+                    className="h-7 w-7 cursor-pointer hover:opacity-80 transition"
+                  />
+                </a>
+
+                {/* Twitter (X) */}
+                <a
+                  href="https://x.com/OnwardVet"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={xIconSrc}
+                    alt="Twitter"
+                    className="h-7 w-7 cursor-pointer hover:opacity-80 transition"
+                  />
+                </a>
               </div>
 
-              <button className="mt-8 bg-[#F86446] text-white px-5 sm:px-7 py-2.5 rounded-full text-sm sm:text-base font-medium whitespace-nowrap hover:opacity-90 transition">
+              <button
+                onClick={() => {
+                  const section = document.getElementById("book-demo");
+                  section?.scrollIntoView({ behavior: "smooth" });
+                }}
+                className="mt-8 bg-[#F86446] text-white px-5 sm:px-7 py-2.5 rounded-full text-sm sm:text-base font-medium whitespace-nowrap hover:opacity-90 transition cursor-pointer"
+              >
                 Book A Demo
               </button>
             </div>

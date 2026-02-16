@@ -13,7 +13,7 @@ const BookADemo = () => {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row  justify-center items-start p-4 md:p-8 gap-6 bg-[#F8F8F8]">
+    <div id="book-demo" className="flex flex-col md:flex-row  justify-center items-start p-4 md:p-8 gap-6 bg-[#F8F8F8]">
       {/* Left */}
       <div className="flex flex-col flex-1 mt-0 sm:mt-15 sm:items-center items-start sm:text-center md:text-left">
         <h1 className="font-bold text-4xl sm:text-5xl lg:text-6xl text-[#3F3F3F] font-samsung w-full max-w-[28rem]">

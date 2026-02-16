@@ -5,7 +5,6 @@ const OrangeCard = () => {
   return (
     <div className="w-full flex justify-center px-4 py-10 bg-white">
       <div className="relative w-full max-w-6xl bg-[#F9735B] rounded-3xl px-8 py-10 md:px-16 md:py-14 overflow-hidden">
-
         {/* LEFT SIDE BACKGROUND */}
         <img
           src={bg}
@@ -15,7 +14,6 @@ const OrangeCard = () => {
 
         {/* Content */}
         <div className="relative z-10 flex flex-col md:flex-row md:items-center md:justify-between gap-8">
-          
           {/* Left Text */}
           <div className="md:w-1/2">
             <h2 className="text-white text-[22px] md:text-[28px] font-bold leading-snug">
@@ -31,11 +29,16 @@ const OrangeCard = () => {
               no add-ons, no copy-paste.
             </p>
 
-            <button className="bg-white w-fit text-[#F86446] font-bold px-6 py-3 rounded-full shadow-md">
+            <button
+              onClick={() => {
+                const section = document.getElementById("book-demo");
+                section?.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="bg-white w-fit text-[#F86446] font-bold px-6 py-3 rounded-full shadow-md cursor-pointer"
+            >
               Book a demo
             </button>
           </div>
-
         </div>
       </div>
     </div>
