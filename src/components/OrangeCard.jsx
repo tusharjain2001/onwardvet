@@ -31,7 +31,7 @@ const OrangeCard = () => {
               no add-ons, no copy-paste.
             </p>
 
-            <button className="bg-white text-[#F86446] font-bold px-6 py-3 rounded-full shadow-md">
+            <button className="bg-white w-fit text-[#F86446] font-bold px-6 py-3 rounded-full shadow-md">
               Book a demo
             </button>
           </div>
