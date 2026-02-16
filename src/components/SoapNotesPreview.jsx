@@ -7,7 +7,7 @@ import planIcon from "@/assets/Aicard/plan.png";
 
 const SoapNotesPreview = () => {
   return (
-    <section className="w-full bg-[#F9F9F9] px-4 py-20">
+    <section className="w-full bg-gradient-to-b from-white to-[#ffeae5cb] px-4 py-20">
       <div className="relative max-w-6xl mx-auto rounded-3xl bg-[#F9F9F9] shadow-[0px_10px_30px_0px_#00000020] overflow-visible">
 
         {/* HEADER */}
