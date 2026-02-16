@@ -46,7 +46,7 @@ const Hero = () => {
                 Book A Demo
               </button>
 
-              <img src={capterraImg} alt="Capterra rating" className="h-8" />
+              <img src={capterraImg} alt="Capterra rating" className="h-10" />
             </div>
           </div>
         </div>
