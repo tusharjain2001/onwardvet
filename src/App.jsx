@@ -11,6 +11,7 @@ import instagram from "./assets/instagram.png";
 import twitter from "./assets/twitter.png";
 import facebook from "./assets/facebook.png";
 import SoapNotesPreview from "./components/SoapNotesPreview";
+import OrangeCard from "./components/OrangeCard";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <Hero />
       <SoapNotesPreview />
+      <OrangeCard />
       <Features />
       <LaunchBanner />
       <BookADemo />
