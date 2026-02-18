@@ -15,6 +15,19 @@
   gtag('js', new Date());
   gtag('config', 'G-1P7QQKP7F7');
 </script>
+<script>
+window.addEventListener("message", function(event) {
+  if (event.data.event && event.data.event === "calendly.event_scheduled") {
+    
+    // Fire LinkedIn conversion
+    if (typeof _linkedin_data_partner_ids !== "undefined") {
+      window.lintrk('track', { conversion_id: 26419809 });
+    }
+
+  }
+});
+</script>
+
   </head>
   <body>
     <div id="root"></div>
