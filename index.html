@@ -2,48 +2,82 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id=GTM-53B3F3WS'+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-53B3F3WS');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <link rel="icon" type="image/svg+xml" href="/logoss.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>onwardvet</title>
+
+    <!-- Fonts -->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-      </style>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-1P7QQKP7F7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-1P7QQKP7F7');
-</script>
-<script type="text/javascript">
-_linkedin_partner_id = "9538689";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script>
-<script type="text/javascript">
-(function(){var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})();
-</script>
+    </style>
 
-<script>
-window.addEventListener("message", function(event) {
-  if (event.data.event && event.data.event === "calendly.event_scheduled") {
-    
-    // Fire LinkedIn conversion
-    if (typeof _linkedin_data_partner_ids !== "undefined") {
-      window.lintrk('track', { conversion_id: 26419809 });
-    }
+    <!-- Google Analytics (kept as-is) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1P7QQKP7F7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1P7QQKP7F7');
+    </script>
 
-  }
-});
-</script>
+    <!-- LinkedIn Insight Tag -->
+    <script type="text/javascript">
+      _linkedin_partner_id = "9538689";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+
+    <script type="text/javascript">
+      (function(){
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+      })();
+    </script>
+
+    <!-- Calendly Event + LinkedIn Conversion -->
+    <script>
+      window.addEventListener("message", function(event) {
+        if (event.data.event && event.data.event === "calendly.event_scheduled") {
+          
+          // Fire LinkedIn conversion
+          if (typeof _linkedin_data_partner_ids !== "undefined") {
+            window.lintrk('track', { conversion_id: 26419809 });
+          }
+
+        }
+      });
+    </script>
 
   </head>
+
   <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53B3F3WS"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager -->
+
     <div id="root"></div>
+
+    <!-- React App -->
     <script type="module" src="/src/main.jsx"></script>
+
   </body>
 </html>
