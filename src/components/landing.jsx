@@ -24,8 +24,9 @@ const Hero = () => {
       <div className="relative z-10 px-6 md:px-12 lg:px-20 pt-20 pb-2 lg:pb-32">
         <div className="mx-auto max-w-7xl">
           <div className="w-full lg:w-1/2 font-samsung">
-            <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold leading-tight text-[#3F3F3F]">
-              Finish Your Notes <br />
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight text-[#3F3F3F]">
+              Finish Your <br />
+              Veterinary Notes <br />
               Before You Leave.
             </h1>
 

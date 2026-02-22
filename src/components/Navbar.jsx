@@ -4,9 +4,23 @@ const Navbar = () => {
   return (
     <header className="w-full">
       {/* TOP ORANGE STRIP */}
-      <div className="w-full bg-[#F86446] text-white text-center text-xs sm:text-sm py-2 px-2">
-        Modern Veterinary Software | Built-In AI |{" "}
-        <br className="block sm:hidden" /> Runs Your Entire Clinic | Easy To Use
+      <div className="w-full bg-[#F86446] text-white text-center text-xs sm:text-[16px] py-2 px-2">
+        <span
+          className="
+      inline-block
+      border-[2px] border-white
+      rounded-full
+      px-3 py-1
+      transition-all duration-300 ease-in-out
+      hover:scale-105
+      hover:bg-white
+      hover:text-[#F86446]
+    "
+        >
+          Veterinary Software
+        </span>{" "}
+        | Built-In AI | <br className="block sm:hidden" />
+        Runs Your Entire Clinic | Easy To Use
       </div>
 
       {/* MAIN NAVBAR */}
