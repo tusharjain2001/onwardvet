@@ -7,15 +7,13 @@ const Navbar = () => {
       <div className="w-full bg-[#F86446] text-white text-center text-xs sm:text-[16px] py-2 px-2">
         <span
           className="
-      inline-block
-      border-[2px] border-white
-      rounded-full
-      px-3 py-1
-      transition-all duration-300 ease-in-out
-      hover:scale-105
-      hover:bg-white
-      hover:text-[#F86446]
-    "
+    inline-block
+    border-[2px] border-white
+    rounded-full
+    px-3 py-1 mr-1 
+    text-white
+    auto-zoom
+  "
         >
           Veterinary Software
         </span>{" "}
