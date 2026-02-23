@@ -8,9 +8,9 @@ const Navbar = () => {
         <span
           className="
     inline-block
-    border-[2px] border-white
+   
     rounded-full
-    px-3 py-1 mr-1 
+     py-1 
     text-white
     
   "
