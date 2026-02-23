@@ -12,7 +12,7 @@ const Navbar = () => {
     rounded-full
     px-3 py-1 mr-1 
     text-white
-    auto-zoom
+    
   "
         >
           Veterinary Software
